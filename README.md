@@ -1,6 +1,6 @@
-# Reproducibility in Video Saliency Detection
+# Investigating Salient Region Detection in Educational Videos
 
-This repository contains the source code that we used in our work "Investigating Salient Region Detection in Educational Videos". Specifically, we include the source code for (a) our motion analysis and (b) evaluation metrics to test the performance of saliency detection models in our educational dataset. These metrics are based in the python implementation offered by the mantainers of the [MIT/Tuebingen Benchmark](https://saliency.tuebingen.ai/).
+This repository contains the source code that we used in our work "Investigating Salient Region Detection in Educational Videos". Specifically, we include the source code for (a) our motion analysis and (b) evaluation metrics to test the performance of saliency detection models in our educational dataset. These metrics are based on the Python implementation offered by the maintainers of the [MIT/Tuebingen Benchmark](https://saliency.tuebingen.ai/).
 
 In our study we applied four saliency detection approaches to our educational videos: TASED-Net [1], ViNet [2], HD2S [3], and TMFI[8].
 We used four metrics: Pearson’s correlation coefficient (CC), distribution similarity (SIM), normalized scanpath saliency (NSS), and Judd area under the curve  variant (AUC-J).
