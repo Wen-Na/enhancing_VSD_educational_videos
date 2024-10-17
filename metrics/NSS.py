@@ -25,7 +25,7 @@ import torchvision.transforms as transforms
 def main():
 
     technique = '_tmfi' # DA or Base Model (HD)?
-    perf_metric = 'NSS_fixed'
+    perf_metric = 'NSS'
     separated_directories = True # there are cases where saliency directory contains two subdirectories: frames (sal. prediction) and images (sal. prediction overlayed on the original video frame)
 
     # set paths to saliency maps and fixation maps
